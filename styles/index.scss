@@ -1,0 +1,87 @@
+/*每个页面公共css */
+@import "./iconfont.scss";
+@import "uview-ui/index.scss";
+
+	uni-page-body,html,body{
+		width: 100%;
+	} 
+	
+	page {
+		line-height: $uni-line-height-base;
+		font-family: PingFang SC, PingFang SC-Medium;
+		color: $uni-text-color-base;
+		font-size: $uni-font-size-base;
+		background: $uni-bg-color-grey;
+	}
+	
+	.cell-icon {
+		color: $uni-color-primary;
+		margin-right: 10rpx;
+	}
+	
+	.base-box {
+		line-height: $uni-line-height-md;
+		padding: $uni-spacing-row-base;
+		background: $uni-bg-color;
+		
+		.desc {
+			line-height: $uni-line-height-base;
+		}
+		
+	}
+	
+	.nav-title {
+		line-height: $uni-font-size-lg;
+		margin: 20rpx 0 30rpx;
+		padding-left: 10rpx;
+		color: $uni-text-color;
+		font-size: $uni-font-size-lg;
+		font-weight: 700;
+		border-left: 4rpx solid $uni-color-primary;
+	}
+	
+	.main-title {
+		color: $uni-color-title;
+		font-size: $uni-font-size-lg;
+		font-weight: 700;
+	}
+	
+	.sub-title {
+		color: $uni-text-color;
+		font-size: $uni-font-size-md;
+		font-weight: 700;
+	}
+	
+	.salary {
+		color: $uni-color-error;
+	}
+	
+	.u-line {
+		vertical-align: middle;
+	}
+	
+	.fixed-footer {
+		position: fixed;
+		left: 0;
+		bottom: 0;
+		z-index: 100;
+		width: 100%;
+		padding: $uni-spacing-row-sm $uni-spacing-col-base;
+		background: $uni-bg-color;
+			
+			.icon {
+				font-size: 44rpx;
+			}
+			
+			.btn {
+				font-size: $uni-font-size-sx;
+			}
+	}
+	
+	.fixed-b-150 {
+		padding-bottom: 150rpx;
+	}
+	
+	.opacity-disabled {
+		opacity: $uni-opacity-disabled;
+	}

@@ -1,0 +1,14 @@
+{
+		"name": "base-uniapp",
+		"version": "1.0.0",
+		"description": "- 此项目为[`uniapp`](https://uniapp.dcloud.io/)+[`uView](http://uviewui.com/components/install.html)UI框架组合\r - 请使用[`Hbuilder`](https://www.dcloud.io/hbuilderx.html) \r - 确保[`Hbuilder`](https://www.dcloud.io/hbuilderx.html)已经装了插件[`scss/sass编译`](https://ask.dcloud.net.cn/article/35683)\r ##### 2、启动项目\r - `npm install` 下载依赖\r - 菜单栏中的【运行】-> 【运行到浏览器】-> 【Google】\r ##### 3、打包项目\r - 环境打包\r \t- 菜单栏中【发行】-> 【网站-PC Web说手机H5...】\r \t- 到打包后的路径`unpackage/build/h5`，把`h5`文件夹改成`projectName`\r \t- 将`projectName`文件夹移到服务器相对应的文件夹",
+		"main": "main.js",
+		"scripts": {
+				"test": "echo \"Error: no test specified\" && exit 1"
+		},
+		"author": "",
+		"license": "ISC",
+		"dependencies": {
+				"js-base64": "^2.5.2"
+		}
+}
